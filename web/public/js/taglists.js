@@ -51,6 +51,15 @@ var taginfo_taglist = (function(){
 
     function column_name(lang, column) {
         const names = {
+            'bg': {
+                'key': 'Ключ',
+                'value': 'Стойност',
+                'element': 'Обект',
+                'description': 'Описание',
+                'image': 'Снимка',
+                'osmcarto_rendering': 'Икона',
+                'count': 'Брой'
+            },
             'cs': {
                 'key': 'Klíč',
                 'value': 'Hodnota',
